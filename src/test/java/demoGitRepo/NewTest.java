@@ -11,8 +11,10 @@ public class NewTest {
 	
 	 WebDriver driver;		
 		@Test				
-		public void testEasy() {	
-			driver.get("http://demo.guru99.com/test/guru99home/");  
+		public void testEasy() {
+			driver.manage().window().maximize();
+			driver.get("http://demo.guru99.com/test/guru99home/"); 
+			
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
 		}	
