@@ -5,7 +5,7 @@ public class LoginPage {
 	
 	public static void set()
 	{
-		System.out.println(" ");
+		System.out.println("demo example ");
 	}
 	
 	}
